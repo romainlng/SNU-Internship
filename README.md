@@ -30,3 +30,18 @@ Foundational reference on Energy-Based Models (EBMs). Defines energy functions, 
 
 Contrastive SSL with the **NT-Xent** loss (InfoNCE with cosine similarity + temperature). Key findings: composition of augmentations defines the task, a projection head helps, and large batches (more negatives) matter. Negatives come from the current batch only.
 
+### Vaswani et al., 2017 — Attention is All You Need
+**Authors:** Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Łukasz Kaiser, Illia Polosukhin
+**Year:** 2017
+**Venue:** NeurIPS
+**Link:** https://arxiv.org/abs/1706.03762
+
+The Transformer paper. Introduces scaled dot-product attention, multi-head attention, and sinusoidal positional encoding. Removes recurrence entirely, enabling parallel training. Foundation of every modern LLM and ViT-based model.
+
+### Self-Supervised Learning from Images with a Joint-Embedding Predictive Architecture
+**Authors:** Mahmoud Assran, Quentin Duval, Ishan Misra, Piotr Bojanowski, Pascal Vincent, Michael Rabbat, Yann LeCun, Nicolas Ballas
+**Year:** 2023
+**Link:** https://arxiv.org/abs/2301.08243
+
+Introduce the Image-based Joint-Embedding Predictive Architecture (I-JEPA), a non-generative approach for self-supervised learning from images. The idea behind I-JEPA is simple: from a single context block, predict the representations of various target blocks in the same image. A core design choice to guide I-JEPA towards producing semantic representations is the masking strategy; specifically, it is crucial to (a) sample target blocks with sufficiently large scale (semantic), and to (b) use a sufficiently informative (spatially distributed) context block.
+
