@@ -1,5 +1,9 @@
 # Internship at Deep Learning Lab. , Seoul National University on Joint-Embedding Predictive Architecture 
 
+# DESCRIPTION
+
+Research codebase focusing on Self-Supervised Learning, Vision Transformers, and World Models (JEPA). Developed during my research internship at Seoul National University (SNU) under the supervision of Prof. Kim Tae-Wan.
+
 # PAPERS
 
 ### LeCun, 2022 — A Path Towards Autonomous Machine Intelligence
