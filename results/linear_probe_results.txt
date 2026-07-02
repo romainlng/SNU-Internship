@@ -1,0 +1,4 @@
+Linear Probing Results - SimCLR on CIFAR-10
+Train accuracy: 45.47%
+Test accuracy: 42.26%
+Random baseline: 10.00%
